@@ -1,0 +1,1 @@
+matlab -nosplash -nodesktop -r "try, run('stieglScanServer.m'), catch, exit, end, exit"
