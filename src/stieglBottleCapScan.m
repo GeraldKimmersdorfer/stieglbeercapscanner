@@ -7,7 +7,7 @@ function [caps,outimg] = stieglBottleCapScan(img,showPBar,showResult,debugOn)
 %
 %   @author: Gerald Kimmersdorfer
 %
-addpath('./ocr'); addpath('./util'); addpath('./lib');
+addpath('./ocr'); addpath('./util'); addpath('./lib'); addpath('./impl');
 global debug logger;
 
 assert(nargin >= 1);
